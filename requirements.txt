@@ -1,0 +1,13 @@
+pandas
+fsspec
+numpy
+matplotlib
+scikit-learn
+scipy
+seaborn
+SQLAlchemy
+statsmodels
+tqdm
+jupyter
+jupyterlab
+db-dtypes
