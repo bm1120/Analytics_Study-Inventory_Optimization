@@ -1,0 +1,3 @@
+@echo off
+echo Stopping Jupyter container...
+docker-compose down 

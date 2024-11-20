@@ -9,8 +9,10 @@ Analytics_Study-Inventory_Optimization/
 ├── requirements.txt # 파이썬 패키지 목록
 ├── Dockerfile # 도커 이미지 설정
 ├── docker-compose.yml # 도커 컴포즈 설정
-├── start.sh # 시작 스크립트
-└── stop.sh # 중지 스크립트
+├── start.sh # Unix 시작 스크립트
+├── stop.sh # Unix 중지 스크립트
+├── start.bat # Windows 시작 스크립트
+└── stop.bat # Windows 중지 스크립트
 ```
 
 ## 환경 설정
@@ -31,12 +33,19 @@ Analytics_Study-Inventory_Optimization/
    ```powershell
    # PowerShell 또는 Command Prompt에서
    # 시작
-   .\start.sh   # PowerShell
-   bash start.sh  # Command Prompt (Git Bash 필요)
+   start.bat
 
    # 중지
-   .\stop.sh    # PowerShell
-   bash stop.sh   # Command Prompt (Git Bash 필요)
+   stop.bat
+   ```
+
+   또는 Git Bash 사용 시:
+   ```bash
+   # 시작
+   bash start.sh
+
+   # 중지
+   bash stop.sh
    ```
 
 ### Mac/Linux
